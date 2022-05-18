@@ -38,24 +38,7 @@ $
 ---
 
 
-## Files
 
-File|Description
----|---
-[main.c](./main.c)|entry point for shell
-[shell.c](./shell.c)|executes the shell
-[shell.h](./shell.h)|header
-[builtins.c](./builtins.c)|built-in functions
-[helpers.c](./helpers.c)|helper functions
-[extraneous.c](./extraneous.c)|more helper functions
-[_getenv.c](./_getenv.c)|gets inputted env
-[search_cwd.c](./search_cwd.c)|gets current working dir
-[find_path.c](./find_path.c)|finds PATH
-[bridge.c](./bridge.c)|checks if builtin or not
-[execute.c](./execute.c)|executes builtin or binary
-[man_1_simple_shell](./man_1_simple_shell)|man page
-
----
 
 ## Project Requirements
 - All your files will be compiled on Ubuntu 14.04 LTS
